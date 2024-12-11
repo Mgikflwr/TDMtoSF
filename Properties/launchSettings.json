@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "TDMtoSF": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7098"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 31115,
+      "useSSL": false
+    }
+  }
+}
